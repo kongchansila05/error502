@@ -1,0 +1,23 @@
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "description": "A Node.js application for HTTP requests",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "cloudscraper": "^4.6.0",
+    "dotenv": "^16.0.0",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
